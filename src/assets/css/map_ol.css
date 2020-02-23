@@ -1,0 +1,37 @@
+.ol-overviewmap{
+    /* width: 156px; */
+    top: 3px;
+    /* height: 156px; */
+    left:auto !important  ;
+    bottom:auto  !important
+}
+/*=S 自定义鹰眼样式 */
+.ol-custom-overviewmap, .ol-custom-overviewmap.ol-uncollapsible {
+    bottom: auto;
+    left: auto;
+    /* 右侧显示 */
+    right: 0;
+    /* 顶部显示 */
+    top: 60;
+}
+/* 鹰眼控件展开时控件外框的样式 */
+.ol-custom-overviewmap:not(.ol-collapsed) {
+    border: 1px solid black;
+}
+/* 鹰眼控件中地图容器样式 */
+.ol-custom-overviewmap .ol-overviewmap-map {
+    border: none;
+   
+}
+/* 鹰眼控件中显示当前窗口中主图区域的边框 */
+.ol-custom-overviewmap .ol-overviewmap-box {
+    border: 2px solid red;
+}
+/* 鹰眼控件展开时其控件按钮图标的样式 */
+.ol-custom-overviewmap:not(.ol-collapsed) button {
+    bottom: auto;
+    left: auto;
+    right: 1px;
+    top: 1px;
+}
+/* ====================================以上是鹰眼图样式============================================== */
