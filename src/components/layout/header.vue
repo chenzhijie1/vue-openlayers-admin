@@ -3,7 +3,7 @@
     <!-- 项目名称及logo -->
     <div class="pip-header-logo">
       <img src="../../assets/logo.jpg" />
-      <label>智慧管网</label>
+      <label>map</label>
     </div>
 
     <!-- 头部菜单 -->
@@ -12,7 +12,7 @@
     <div class="header-user">
       <el-dropdown>
         <span class="el-dropdown-link">
-          <label class="header-user-name" title="超级管理员">超级管理员</label>
+          <label class="header-user-name" title="admin">admin</label>
           <img  class="header-user-avator" src="../../assets/images/default-avator.jpg" />
         </span>
         <el-dropdown-menu slot="dropdown">

@@ -2,7 +2,7 @@
   <div id="login" class="box">
     <header class="header">
       <img class="logo" src="../../assets/logo.jpg" />
-      <label class="logo-name">智慧管网</label>
+      <label class="logo-name">Vue-openlayers</label>
       <!-- < img src="/images/banner.jpg"> -->
     </header>
     <!---->
@@ -10,22 +10,22 @@
       <div class="login-box">
         <div class="login-box-item">
           <label>账号</label>
-          <el-input placeholder="请选择日期"></el-input>
+          <el-input placeholder="请输入账号"></el-input>
         </div>
         <div class="login-box-item">
           <label>密码</label>
-          <el-input placeholder="请选择日期"></el-input>
+          <el-input placeholder="请输入密码"></el-input>
         </div>
         <div class="login-box-item">
           <label>验证码</label>
-          <el-input placeholder="请选择日期"></el-input>
+          <el-input placeholder=""></el-input>
         </div>
         <div class="login-box-item login-btn">
           <el-button type="primary" @click="gotoMain">登录</el-button>
         </div>
       </div>
     </div>
-    <footer class="footer">Copyright ©新开普智慧水利部</footer>
+    <footer class="footer">Copyright ©陈志洁1051788989@qq.com</footer>
   </div>
 </template>
 <script>
